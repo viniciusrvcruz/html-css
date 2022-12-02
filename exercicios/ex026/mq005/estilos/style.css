@@ -37,7 +37,7 @@ span#burguer:hover {
 menu {
     display: none;
 }
-
+    
 menu > ul {
     list-style-type: none;
 }
