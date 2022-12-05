@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* Todas as demais medias */
+
+/* Typical Device Breakpoints
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768 até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+:root {
+    --cor1: #5F2D82;
+    --cor2: #4B969A;
+    --cor3: #94CFCD;
+}
+
+@media screen and (min-width: 768px){
+    body {
+        background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    }
+}

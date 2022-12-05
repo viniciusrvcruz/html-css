@@ -7,6 +7,7 @@
     <title>login</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media_query.css">
 </head>
 <body>
     <main>
@@ -16,13 +17,15 @@
             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             <form action="cadastro.php" method="post">
                 <div id="email">
-                    <label for="iemail"><span class="material-symbols-outlined">person</span></label>
-                    <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu e-mail" required><br>
+                    <label for="iemail"><span id="person" class="material-symbols-outlined">person</span></label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" placeholder="  seu e-mail" required><br>
                 </div>
-                <label for="isenha"><span class="material-symbols-outlined">vpn_key</span></label>
-                <input type="password" name="senha" id="isenha" placeholder="sua senha" required><br>
-                <input type="submit" value="Entrar"><br>
-                <input type="button" value="Esqueci a senha">
+                <div id="senha">
+                    <label for="isenha"><span id="vpn_key" class="material-symbols-outlined">vpn_key</span></label>
+                    <input type="password" name="senha" id="isenha" placeholder="  sua senha" required><br>
+                </div>
+                <input type="submit" value="Entrar" id="botao_entrar"><br>
+                <input type="button" value="Esqueci a senha" id="esqueci_a_senha">
             </form>
         </section>
     </main>

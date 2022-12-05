@@ -3,6 +3,7 @@
 :root {
     --cor1: #5F2D82;
     --cor2: #4B969A;
+    --cor3: #94CFCD;
 }
 
 * {
@@ -26,6 +27,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    box-shadow: -2px 3px 20px rgba(0, 0, 0, 0.342);
 }
 
 img {
@@ -48,7 +50,78 @@ section p {
     margin-top: 10px;
 }
 
+span#person {
+    position: absolute;
+    top: 61.2%;
+    left: 9%;
+    color: white;
+}
+
+span#vpn_key {
+    position: absolute;
+    top: 70.2%;
+    left: 9%;
+    color: white;
+}
+
 div#email {
     background-color: var(--cor1);
     width: 100%;
+    height: 40px;
+    padding: .5px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#iemail {
+    position: absolute;
+    left: 22%;
+    top: 60.2%;
+    width: 184px;
+    height: 36px;
+    background-color: var(--cor3);
+    border-radius: 10px;
+    border: none;
+}
+
+div#senha {
+    background-color: var(--cor1);
+    width: 100%;
+    height: 40px;
+    padding: .5px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#isenha {
+    position: absolute;
+    left: 22%;
+    top: 69.2%;
+    width: 184px;
+    height: 36px;
+    background-color: var(--cor3);
+    border-radius: 10px;
+    border: none;
+}
+
+#botao_entrar {
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: var(--cor2);
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+#esqueci_a_senha {
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    background-color: white;
+    color: var(--cor2);
+    border: 1px solid var(--cor2);
+    border-radius: 5px;
 }
